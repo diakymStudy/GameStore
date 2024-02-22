@@ -94,6 +94,7 @@ namespace GameStore.Controllers
             }
             else
             {
+                String a = "dasd";
                 Game aGame = new Game();
                 aGame = _context.Games.Find(Id);
                 return View(aGame);
